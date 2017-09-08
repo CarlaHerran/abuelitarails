@@ -1,0 +1,12 @@
+  <h1>Abuelita Sordita</h1>
+
+  <p> <%= @abuelita %> </p>
+
+<%= form_tag '/abuelita/abuelita' do %>
+  <%= label_tag 'Dile algo a tu Abuelita:' %>
+  <%= text_field_tag 'input' %>
+  <%= submit_tag("Decir") %>
+<% end %>
+
+  
+
